@@ -1,11 +1,21 @@
+
+@font-face {
+  src: url('https://res.cloudinary.com/dr6lvwubh/raw/upload/v1529908256/CompressaPRO-GX.woff2');
+  font-family:'Compressa VF';
+  font-style: normal;
+}
 .App {
   text-align: center;
+  background-color: black;
+  font-family: 'Compressa VF';
 }
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

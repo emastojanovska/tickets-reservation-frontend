@@ -1,0 +1,36 @@
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+
+@font-face {
+    src: url('https://res.cloudinary.com/dr6lvwubh/raw/upload/v1529908256/CompressaPRO-GX.woff2');
+    font-family:'Compressa VF';
+    font-style: normal;
+}
+#my{
+    background-color: red;
+}
+.show>.dropdown-menu {
+    display: block;
+    position: absolute;
+}
+
+
+.cinema-name {
+    transition:.8s all;
+    font-family:'Compressa VF';
+    text-rendering: optimizeSpeed;
+    color: white;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-variation-settings:  "wdth" 250, "wght" 300;
+    cursor: pointer;
+}
+
+.cinema-name:hover {
+    transition:.6s all;
+    font-variation-settings: "wdth" 400, "wght" 1000;
+}

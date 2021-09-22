@@ -1,0 +1,41 @@
+.button-dark{
+    border-radius: 0px;
+    background-color: black;
+    color: white;
+    border:none;
+    padding: 20px;
+}
+
+.button-dark-inverted{
+    border-radius: 0px;
+    background-color: white;
+    color: black;
+    border:none;
+    padding: 20px;
+}
+.button-dark-inverted:hover{
+    border-radius: 0px;
+    background-color: black;
+    color: white;
+    border:none;
+}
+.disabled{
+    opacity: 0.5;
+    color: red;
+    border-radius: 0px;
+    background-color: black;
+    border:none;
+    padding: 20px;
+}
+.finished{
+    color: red;
+    font-width: bold;
+    opacity: 1;
+    padding: 0;
+}
+.button-dark:hover{
+    border-radius: 0px;
+    background-color: white;
+    color: black;
+    border:none;
+}
